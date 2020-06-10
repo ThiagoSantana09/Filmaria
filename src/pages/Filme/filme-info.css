@@ -1,0 +1,35 @@
+.filme-info{
+  display: flex;
+  flex-direction: column;
+  max-width: 900px;
+}
+.titulo{
+  text-align: center;
+}
+.imgDetalhe{
+  border-radius: 50px;
+}
+.sinopse{
+  margin-top: -7px;
+  text-align: justify;
+}
+.linkVoltarInicio{
+  height: 40px;
+  background: none;
+  border-radius: 5px;
+  border: 2px solid brown;
+  color: brown;
+  font-size: 18px;
+  font-weight: bold;
+  display: flex;
+  text-decoration: none;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.5s;
+  margin: 10px;
+}
+
+.linkVoltarInicio:hover{
+  background: brown;
+  color: #FFF;
+}
